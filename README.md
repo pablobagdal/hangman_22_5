@@ -1,30 +1,23 @@
 # hangman_22_5
-The game with 7 tries to guess the word that provided by program
+Игра "Виселица" заключается в том, что у игрока есть 7 попыток отгадать слово. Изначально вместо букв отображаются прочерки. За ход отгадывается только одна буква. Если она есть в слове - открываются все её вхождения. Если её нет - ошибка. После 7 ошибок нарисованный человечек умрёт:(
 
-To start the program, clone or download .zip of the repository, open it in terminal/console and write:
+Чтобы запустить программу, скачайте себе репозиторий, клонировав его, вводом следующей команды в терминале:
 
-`ruby main.rb`
+          git clone https://github.com/pablobagdal/handman_22_5.git
+
+либо скачайте архив и разархивируйте на своём компьютере.
+
+Затем откройте терминал из загруженной папки и выполните команду
+
+          ruby main.rb
 
 
-The interface of the game looks like this:
+Учтите, что на вашем компьютере уже должен быть установлен язык Ruby. На Mac OS он уже предустановлен. Для Windows потребуется сначала произвести установку языка Ruby.
 
+Установка Ruby на Windows: https://www.ruby-lang.org/ru/documentation/installation/#rubyinstaller:~:text=RubyInstaller.
 
-Слово: К О __ О __ __
+Снимки экрана из работы программы:
 
-          _______
-          |/
-          |     ( )
-          |      |
-          |
-          |
-          |
-          |
-          |
-        __|________
-        |         |
+<img width="260" alt="Снимок экрана 2022-08-04 в 19 10 15" src="https://user-images.githubusercontent.com/85275741/182895814-fce93478-8922-4233-a1bb-75d3bc16d2d3.png">
 
-Ошибки (2): Х, У
-
-У вас осталось ошибок: 5
-
-Введите следующую букву:
+<img width="326" alt="Снимок экрана 2022-08-04 в 19 11 51" src="https://user-images.githubusercontent.com/85275741/182896127-cf73be1f-2e39-440c-a775-40f20a968a0e.png">
